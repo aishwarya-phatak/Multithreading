@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         protected Float doInBackground(String... fileUrls) {
             for (String fileUrl : fileUrls){
                 progressDialog.setMessage("Downloading"+fileUrl);
-                for(int i = 0;i<=100;i++) {
+                for(int i = 0;i <= 100;i++) {
                     Log.e("tag", fileUrl + "" + i + " % ");
 
                     Integer[] progress = new Integer[1];
